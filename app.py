@@ -155,7 +155,7 @@ if st.button("Recommend"):
 
         st.dataframe(
             result[["title", "genres", "content_score", "svd_score", "hybrid_score"]],
-            use_container_width=True
+            width="stretch"
         )
     else:
         st.error("Please choose a valid movie first")
