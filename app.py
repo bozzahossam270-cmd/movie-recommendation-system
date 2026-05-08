@@ -216,3 +216,8 @@ st.write(f"RMSE: {rmse:.2f}")
 st.write(f"Precision: {precision:.2f}")
 st.write(f"Recall: {recall:.2f}")
 st.write(f"F1-Score: {f1:.2f}")
+
+#streamlit run app.py
+#git add .
+#git commit -m "fix evaluation metrics"
+#git push
